@@ -1,0 +1,139 @@
+* {
+    /* font-size: 100%; */
+    font-family: 'Roboto', sans-serif; ;
+}
+
+
+.header {
+    display:flex;
+    flex-direction: column;
+    padding: 0 100px;
+    background-color:rgb(70, 83, 97) ;
+    color: white;
+    margin: 0px;
+}
+
+.logo {
+    font-weight: bold;
+}
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding:16px */
+}
+
+.header-card {
+    display: flex;
+    align-items:end ;
+    padding: 84px 0px;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    /* Add any additional styling here */
+    font-size: 2em;
+}
+
+.img-description {
+    margin: 0; /* Reset default margin */
+    padding: 8px 0px; /* Reset default padding */
+    text-align: center;
+    font-size:12px ;
+}
+
+.header-card-left {
+    align-items: start;
+    padding: 0;
+}
+
+.header-card-right {
+     align-self: start;
+     padding-left: 32px;
+     /* padding-top: 32px; */
+}
+
+button.sign-up-no-border {
+    padding: 4px 20px;
+    background-color:dodgerblue ;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+ul {
+    display: flex;
+    /* flex: 1 1 0; */
+    /* flex-direction: row; */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 16px
+}
+
+.contents-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 64px 100px */
+}
+
+.carousel-title {
+    /* display: flex; */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 32px 0 0 0;
+}
+
+.carousel {
+    display: flex;
+    width: min-content;
+    gap: 32px;
+    padding: 32px 0 80px 0;
+}
+
+.quote-box {
+    background-color: lightgray;
+    padding: 64px 160px
+}
+
+.quote {
+    font-size: 24px;
+    text-align: justify ;
+}
+
+.author {
+    text-align: right;
+    margin: 0px;
+}
+
+.footer-section {
+    color: white;
+
+}
+
+.footer-cta {
+    background-color: #3687FF ;
+    width: auto;
+    /* height: 120px; */
+    margin: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 96px;
+}
+
+button.sign-up-border {
+    padding: 4px 20px;
+    background-color:dodgerblue ;
+    color: white;
+    border-radius: 4px;
+    border: white;
+    border-width: thin ;
+    border-style: solid;
+}
